@@ -1,0 +1,12 @@
+name: polymer_with_sass
+description: A sample Polymer application
+dependencies:
+  polymer: any
+  sass:
+    path: /Users/dan/mixbook/taco/dart-sass
+transformers:
+- polymer:
+    entry_points: web/polymer_with_sass.html
+- sass:
+    compass: true
+    load_paths: ["asset"]

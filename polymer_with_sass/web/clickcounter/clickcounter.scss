@@ -1,0 +1,14 @@
+@import "compass";
+
+div {
+  font-size: 24pt;
+  text-align: center;
+  margin-top: 140px;
+}
+
+button {
+  background-color: red;
+  font-size: 24pt;
+  margin-bottom: 20px;
+  @include opacity(0.5);
+}
